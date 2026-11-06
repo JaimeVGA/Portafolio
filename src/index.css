@@ -442,7 +442,7 @@ body {
 .reveal-portrait {
   position: absolute;
   inset: 0;
-  touch-action: pan-y;
+  touch-action: pan-y pinch-zoom;
 }
 
 .reveal-portrait img,
@@ -1018,4 +1018,108 @@ body {
 
 .animate-aurora-3 {
   animation: aurora-3 24s ease-in-out infinite;
+}
+
+/* ========================================================
+   RESPONSIVE DESIGN OPTIMIZATIONS (Mobile & Tablets)
+   ======================================================== */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 100svh;
+  }
+
+  /* Adjust PORTAFOLIO background word position and size */
+  .hero-word {
+    top: 22%;
+    font-size: clamp(64px, 17vw, 120px);
+  }
+
+  /* Photo proportions on small screens */
+  .hero-photo {
+    height: 72svh;
+    max-height: 540px;
+    bottom: 0;
+  }
+
+  /* Hero meta top-left */
+  .hero-meta {
+    top: 72px;
+    font-size: 10px;
+  }
+
+  /* Greeting & Headline */
+  .hero-hello {
+    top: 48%;
+    font-size: clamp(26px, 7vw, 38px);
+  }
+
+  .hero-name {
+    top: calc(48% + clamp(28px, 7.5vw, 42px));
+    font-size: clamp(38px, 11vw, 56px);
+    max-width: 80vw;
+  }
+
+  /* CTA Buttons */
+  .hero-cta {
+    bottom: 24px;
+    width: calc(100% - (var(--pad) * 2));
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .btn-primary, .btn-ghost {
+    height: 42px;
+    padding: 0 14px;
+    font-size: 12.5px;
+    flex: 1;
+    justify-content: center;
+  }
+
+  /* Floating console on mobile */
+  .hero-console {
+    width: calc(100vw - 24px);
+    bottom: 12px;
+    padding: 8px 10px;
+    font-size: 10px;
+  }
+
+  /* Hide interaction hint on very small devices or adjust position */
+  .hero-hint {
+    display: none;
+  }
+
+  /* Adjust section spacing for cleaner mobile scroll */
+  .section-wrapper {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .section-header-centered {
+    margin-bottom: 36px;
+  }
+
+  .section-heading {
+    font-size: clamp(26px, 7vw, 36px);
+  }
+
+  /* Agent tags scale down slightly on phones */
+  .agent svg {
+    width: 14px;
+    height: 16px;
+  }
+  .agent-tag {
+    font-size: 9px;
+    padding: 1px 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-cta {
+    flex-direction: column;
+  }
+
+  .btn-primary, .btn-ghost {
+    width: 100%;
+  }
 }

@@ -7,8 +7,7 @@ export const personalInfo: PersonalInfo = {
   availability: "Disponible para proyectos",
   tagline: "Desarrollo modelos predictivos, pipelines de datos y arquitecturas escalables de Inteligencia Artificial aplicada.",
   bioParagraphs: [
-    "Hola soy un apasionado por la ciencia de datos y el machine learning, simpre busco saber nuevas habilidades y me gusta resolver problemas mediante lo que yo se, por esto mismo me gusta participar en hackatones y tomar proyectos que me apasionen"
-  ],
+    "Hola, soy Jaime Fabián Cortés Vega, apasionado por la ciencia de datos y el machine learning. Siempre estoy en constante aprendizaje para adquirir nuevas habilidades y resolver problemas complejos mediante mis conocimientos. Por ello, disfruto participar en hackatones y colaborar en proyectos desafiantes."],
   email: "cortesvegajaimefabian@gmail.com",
   github: "https://github.com/JaimeVGA",
   linkedin: "https://www.linkedin.com/in/jaimevga",
@@ -111,7 +110,7 @@ export const certificates: Certificate[] = [
     issuer: "Hackatón MLH Hacktoberfest",
     year: "2026",
     tag: "3er Lugar 🥉",
-    link: "https://github.com/JaimeVGA/Hacktoberfest"
+    link: "https://oaxacoders.org/eventos/hacktoberfest-hack-day-oaxaca-2026/"
   },
   {
     id: "jardine-itam",

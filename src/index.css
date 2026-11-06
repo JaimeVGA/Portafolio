@@ -1028,6 +1028,24 @@ body {
     min-height: 100svh;
   }
 
+  /* Hide inner desktop nav links inside hero on mobile to prevent overflow */
+  .hero-nav nav {
+    display: none !important;
+  }
+
+  .hero-nav .status {
+    display: none;
+  }
+
+  .hero-nav .nav-cv {
+    padding: 5px 10px;
+    font-size: 11px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
   /* Adjust PORTAFOLIO background word position and size */
   .hero-word {
     top: 22%;
@@ -1043,7 +1061,15 @@ body {
 
   /* Hero meta top-left */
   .hero-meta {
-    top: 72px;
+    top: 68px;
+    font-size: 9.5px;
+    max-width: 65vw;
+  }
+
+  /* Rebuild button on mobile */
+  .hero-replay {
+    top: 68px;
+    padding: 4px 8px;
     font-size: 10px;
   }
 

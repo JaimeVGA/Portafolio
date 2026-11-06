@@ -420,7 +420,7 @@ export const HeroAgentic: React.FC = () => {
           <span>●</span>
         </a>
 
-        <nav aria-label="Secciones" className="hidden md:flex">
+        <nav aria-label="Secciones" className="hidden lg:flex">
           <a href="#sobre-mi">Sobre mí</a>
           <a href="#habilidades">Habilidades</a>
           <a href="#proyectos">Proyectos</a>
@@ -429,7 +429,7 @@ export const HeroAgentic: React.FC = () => {
         </nav>
 
         <div className="nav-right">
-          <span className="status">
+          <span className="status hidden sm:inline-flex">
             <i /> DISPONIBLE
           </span>
           <a

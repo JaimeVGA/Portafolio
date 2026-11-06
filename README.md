@@ -38,14 +38,4 @@ npm run build
 
 ---
 
-## 📝 Cómo personalizar tus datos
-Toda la información del portafolio se encuentra centralizada en un solo archivo fácil de editar:
-👉 `src/data/portfolioData.ts`
 
-Ahí puedes cambiar:
-- Tu nombre, rol, ubicación y bio.
-- Tus métricas (años de experiencia, proyectos, etc.).
-- Las habilidades y sus porcentajes de dominio.
-- Tus proyectos reales (imágenes, títulos, enlaces a demos y repositorios).
-- Tus certificados y enlaces de verificación.
-- Tus enlaces a redes sociales y correo.

@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build outputs
+dist/
+dist-ssr/
+build/
+
+# Binaries and executables
+*.exe
+cloudflared.exe
+
+# Local environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor and IDE configurations
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Vite & TypeScript cache
+*.tsbuildinfo
+.vite/
+.vite-temp/
+
+# Temporary development test & preview images
+public/hero/*test*.jpg
+public/hero/*test*.png
+public/hero/*check*.jpg
+public/hero/align-*.jpg
+public/hero/batman-*.png
+public/hero/yo.jpg

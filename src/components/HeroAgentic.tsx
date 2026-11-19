@@ -434,7 +434,7 @@ export const HeroAgentic: React.FC = () => {
           </span>
           <a
             href={personalInfo.cvUrl}
-            download="CV_Jaime_Vega.pdf"
+            download="Curriculum Vitae ATS - Jaime Fabián Cortés Vega.pdf"
             target="_blank"
             rel="noreferrer"
             className="nav-cv"

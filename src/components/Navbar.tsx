@@ -64,7 +64,7 @@ export const Navbar: React.FC = () => {
 
           <a
             href={personalInfo.cvUrl}
-            download="CV_Jaime_Vega.pdf"
+            download="Curriculum Vitae ATS - Jaime Fabián Cortés Vega.pdf"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-1.5 text-xs font-mono font-semibold px-3 py-1.5 rounded-md border border-[var(--border-light)] hover:border-[var(--accent)] text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
@@ -103,7 +103,7 @@ export const Navbar: React.FC = () => {
           ))}
           <a
             href={personalInfo.cvUrl}
-            download="CV_Jaime_Vega.pdf"
+            download="Curriculum Vitae ATS - Jaime Fabián Cortés Vega.pdf"
             target="_blank"
             rel="noreferrer"
             className="btn-primary w-full text-center text-xs mt-2"
